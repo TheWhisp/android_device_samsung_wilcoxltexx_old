@@ -1,0 +1,5 @@
+# Add device specific blobs here
+# NFC firmware
+vendor/firmware/libpn547_fw.so
+vendor/firmware/libpn547_fw_pku.so
+vendor/firmware/libpn547_fw_platform.so
