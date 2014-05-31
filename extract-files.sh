@@ -2,6 +2,6 @@
 
 set -e
 
-export DEVICE=wilcoxltexx
+export DEVICE=wilcox-common
 export VENDOR=samsung
-./../wilcox-common/extract-files.sh $@
+./../$DEVICE/extract-files.sh $@

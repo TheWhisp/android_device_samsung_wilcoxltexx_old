@@ -1,4 +1,4 @@
-# Copyright (C) 2013 The CyanogenMod Project
+# Copyright (C) 2014 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -23,8 +23,6 @@
 # Inherit from common wilcox
 -include device/samsung/wilcox-common/BoardConfigCommon.mk
 
-# Inherit from the proprietary version
--include vendor/samsung/wilcoxltexx/BoardConfigVendor.mk
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := wilcoxlte,wilcoxltexx,g3815,SM-G3815
@@ -34,3 +32,6 @@ TARGET_KERNEL_VARIANT_CONFIG := msm8930_cane_wilcox_eur_lte_defconfig
 
 # NFC
 BOARD_HAVE_NFC := true
+
+# BLN
+BOARD_HAVE_GENERIC_BLN := false
