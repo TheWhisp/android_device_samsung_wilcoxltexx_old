@@ -25,13 +25,10 @@
 
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := wilcoxlte,wilcoxltexx,g3815,SM-G3815
+TARGET_OTA_ASSERT_DEVICE := wilcoxlte,wilcoxltexx,SM-G3815
 
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := msm8930_cane_wilcox_eur_lte_defconfig
 
 # NFC
 BOARD_HAVE_NFC := true
-
-# BLN
-BOARD_HAVE_GENERIC_BLN := false
