@@ -28,6 +28,7 @@
 TARGET_OTA_ASSERT_DEVICE := wilcoxlte,wilcoxltexx,SM-G3815
 
 # Kernel
+TARGET_KERNEL_CONFIG := cyanogenmod/msm8930_cane_defconfig
 TARGET_KERNEL_VARIANT_CONFIG := msm8930_cane_wilcox_eur_lte_defconfig
 
 # NFC
